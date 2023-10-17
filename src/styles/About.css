@@ -1,0 +1,108 @@
+.about-how-we-work-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px 7.5%;
+    margin-top: 80px;
+    background-image: url(../assets/blob.svg);
+    /* background-size: cover;
+    background-attachment: fixed; */
+    background-repeat: no-repeat;
+    z-index: 10;
+    background-size: 180% 180%;
+    background-position: center;
+
+}
+
+.about-how-we-work-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+
+.about-how-we-work-container h3{
+    color:  #f23a1d;
+    font-size: 1rem;
+}
+
+.about-who-we-are-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    padding: 80px 7.5%;
+    margin-top: 80px;
+    background-color: var(--gray);
+    
+
+
+}
+
+.about-who-we-are-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+
+.about-mission-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 80px 7.5%;
+    background-image: url(../assets/blob.svg);
+    /* background-size: cover;
+    background-attachment: fixed; */
+    background-repeat: no-repeat;
+    z-index: 10;
+    background-size: 180% 180%;
+    background-position: center;
+
+
+    /* flex-direction: row-reverse; */
+
+}
+
+.about-mission-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+.about-vision-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    padding: 80px 7.5%;
+    background-color: rgb(255, 253, 253);
+
+
+
+}
+
+.about-vision-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+
+.aboutTeamMainContainer{
+    width: 85%;
+    margin: 5rem auto;
+    background-image: url(./images/blob2.svg);
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: center;
+
+}
+
+.about-TeamBodyContainer>h1{
+    color: darkblue;
+    font-size: 1.6rem;
+    
+}
+
+span{
+    color: #f23a1d;
+}
+
+

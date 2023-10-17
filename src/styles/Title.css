@@ -1,0 +1,25 @@
+.sectionTitle {
+    width: 200px;
+    border-bottom: 3px solid  #f23a1d;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 auto ;
+    position: relative;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.sectionTitle::after{
+    display: inline-block;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background-color:  #f23a1d;
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(75% - 7px);
+    transform: rotate(45deg) translate(50%, 50%);
+    border: 3px solid #fff;
+
+}

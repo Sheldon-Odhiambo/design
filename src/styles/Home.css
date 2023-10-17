@@ -1,0 +1,71 @@
+.background-img{
+    background-size: cover;
+}
+.container-home{
+    margin: auto;
+    background-image: url('../assets/diego-ph-fIq0tET6llw-unsplash.jpg');
+    background-size: cover;
+}
+
+.container-home h1{
+    margin-top: 230px;
+    display: inline-block;
+    font-size: 4.5rem;
+    color: #000;
+    text-shadow: 0 0 2px #fff;
+    width: 50%;
+    line-height: 4.2rem;
+    font-weight: 500;
+}
+
+.process, .container-hero{
+        max-width: 1140px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+}
+.process h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px;
+    text-align: center;
+}
+
+.process p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.benefits{
+    list-style: none;
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.benefits li {
+    width: 250px;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    animation: movePictures 20s linear infinite;
+}
+
+.benefits li img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+.benefits li span {
+    color: #fff;
+    display: block;
+}
+
