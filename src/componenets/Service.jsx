@@ -1,15 +1,16 @@
 import React from 'react'
 import "../styles/Service.css"
-import idea from '../assets/idea.png'; 
-import employee from '../assets/employee.png'; 
-import service from '../assets/innovation.jpg'; 
-import innovation from '../assets/innovation.jpg'; 
-import experience from '../assets/innovation.jpg'; 
+import idea from '../assets/service1.jpg'; 
+import employee from '../assets/service2.jpg'; 
+import service from '../assets/service3.jpg'; 
+import innovation from '../assets/service4.jpg'; 
+import experience from '../assets/service5.jpg'; 
 import build from '../assets/inno23.jpg';
 import value from '../assets/value preposition design.jpg';
 import starter from '../assets/starter.jpg'; 
 import community from '../assets/dylan-gillis-KdeqA3aTnBY-unsplash.jpg'; 
 import userEx from '../assets/ux-indonesia-WCID2JWoxwE-unsplash.jpg';
+import Title from "./Title"                                                                                                                                                                                                        
 
 
 
@@ -20,13 +21,12 @@ import userEx from '../assets/ux-indonesia-WCID2JWoxwE-unsplash.jpg';
 
 const Service = () => {
   return (
+
     
   <div>
       <main className="service container">
-    <section className="serve">
-          <div className="sectionTitle" id="serve">Services</div>
+      <Title title='Services'/>
 
-      </section>
 
       <div className="serviceMainContainer" id="meet-the-team">
         <div className="serviceBodyContainer">
@@ -111,12 +111,10 @@ const Service = () => {
         <div className="design-text">
 
           <h2> <i class="fa-solid fa-laptop"></i>User Experience (UX) Research and Design </h2>
-          <p>Innovation by Design" is a concept that emphasizes the role of design thinking and principles in driving innovation within organizations.</p>
-          <p> It combines creative problem-solving with a user-centric approach to develop products, services, and processes that are not only functional but also aesthetically pleasing and user-friendly. Here's a brief overview of the key aspects of Innovation by Design:</p>
-          <p> <ul><li>Design Thinking</li>
-            <li>Design Thinking</li>
-            <li>Design Thinking</li>
-          </ul></p>
+          <p>User Experience (UX) research and design is a multidisciplinary field focused on creating products, services, or systems that provide a positive and meaningful experience for users.</p>
+          <p>Here's a brief overview of UX research and design: </p>
+          <p>User Experience Research:<span>Understanding Users Needs,Usability Testing, Information Architecture, Persona Development, User Journeys </span> </p>
+          <p>User Experience Design: <span>Information and Interaction Design, Visual Design, Interaction Design, Usability Testing, Prototype, User-Centered Design</span></p>
         </div>
         <img src={userEx} alt="Photo by UX Indonesia "/>
       </section>

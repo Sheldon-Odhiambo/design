@@ -9,8 +9,8 @@
     background-attachment: fixed; */
     background-repeat: no-repeat;
     z-index: 10;
-    background-size: 180% 180%;
-    background-position: center;
+    /* background-size: 180% 180%; */
+    background-position: top;
 
 }
 
@@ -32,7 +32,12 @@
     flex-direction: row-reverse;
     padding: 80px 7.5%;
     margin-top: 80px;
-    background-color: var(--gray);
+    background-color: #F6F6F6;
+    background-image: url(../assets/blob.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+
+
     
 
 
@@ -54,7 +59,7 @@
     background-attachment: fixed; */
     background-repeat: no-repeat;
     z-index: 10;
-    background-size: 180% 180%;
+    /* background-size: 180% 180%; */
     background-position: center;
 
 
@@ -73,7 +78,11 @@
     gap: 1rem;
     flex-direction: row-reverse;
     padding: 80px 7.5%;
-    background-color: rgb(255, 253, 253);
+    background-color:  #F6F6F6;
+    background-image: url(../assets/blob.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+
 
 
 
