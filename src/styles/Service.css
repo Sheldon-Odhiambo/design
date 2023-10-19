@@ -1,0 +1,171 @@
+.service-Cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .serviceTeamCard>img{
+    width: 100%;
+    /* height: 300px; */
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 6px 3px #ccc;
+    margin-bottom: 0.2rem;
+  }
+  
+  
+  .serviceTeamCard {
+    margin-bottom: 2.5rem;
+  }
+
+.serviceTeamCard h4{
+    color: #f23a1d;
+}
+  
+  
+.serve{
+    padding: 100px;
+   }
+
+.service-innovation-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-direction: row-reverse;
+  padding: 20px 7.5%;
+  /* margin-top: 80px; */
+
+}
+
+.service-innovation-container > img {
+  width: 48%;
+  border-radius: 0.5rem;
+  box-shadow: -20px -20px 0 lightblue;
+
+  
+}
+
+.innovation-text{
+    color: #3D3D3D;
+    font-size: .95rem;
+    line-height: 1.4rem;
+}
+
+.service-value-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  /* flex-direction: row-reverse; */
+  padding: 20px 7.5%;
+  margin-top: 80px;
+
+}
+
+.service-value-container > img {
+  width: 48%;
+  border-radius: 0.5rem;
+  box-shadow: 20px -20px 0 lightblue;
+
+}
+
+.value-text{
+  color: #3D3D3D;
+  font-size: .95rem;
+  line-height: 1.4rem;
+}
+
+.service-starter-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-direction: row-reverse;
+  padding: 20px 7.5%;
+  margin-top: 80px;
+
+}
+
+
+.service-starter-container > img {
+  width: 48%;
+  border-radius: 0.5rem;
+  box-shadow: -20px -20px 0 lightblue;
+
+}
+
+.starter-text{
+  color: #3D3D3D;
+  font-size: .95rem;
+  line-height: 1.4rem;
+}
+
+.service-community-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  /* flex-direction: row-reverse; */
+  padding: 20px 7.5%;
+  margin-top: 80px;
+
+}
+
+.service-community-container > img {
+  width: 48%;
+  border-radius: 0.5rem;
+  box-shadow: 20px -20px 0 lightblue;
+
+}
+
+.community-text{
+    color: #3D3D3D;
+    font-size: .95rem;
+    line-height: 1.4rem;
+}
+
+.service-design-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-direction: row-reverse;
+  padding: 20px 7.5%;
+  margin-top: 80px;
+
+}
+
+.service-design-container > img {
+  width: 48%;
+  border-radius: 0.5rem;
+  box-shadow: -20px -20px 0 lightblue;
+
+}
+
+.design-text{
+  color: #3D3D3D;
+  font-size: .95rem;
+  line-height: 1.4rem;
+}
+
+
+.service h2 i {
+  color: red;
+}
+
+.serviceMainContainer{
+  width: 85%;
+  margin: 2rem auto;
+  background-image: url(../assets/blob2.svg);
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: center;
+
+}
+
+.servieBodyContainer>h1{
+  color: darkblue;
+  font-size: 1.6rem;
+  
+}
+
+span{
+  color: #f23a1d;
+  
+}
