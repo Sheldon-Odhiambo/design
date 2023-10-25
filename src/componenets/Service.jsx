@@ -10,7 +10,9 @@ import value from '../assets/value preposition design.jpg';
 import starter from '../assets/starter.jpg'; 
 import community from '../assets/dylan-gillis-KdeqA3aTnBY-unsplash.jpg'; 
 import userEx from '../assets/ux-indonesia-WCID2JWoxwE-unsplash.jpg';
-import Title from "./Title"                                                                                                                                                                                                        
+import Title from "./Title" 
+import Footer from './Footer'                                                                                                                                                                                                       
+import Navbar from './Navbar';
 
 
 
@@ -22,7 +24,9 @@ import Title from "./Title"
 const Service = () => {
   return (
 
-    
+    <>
+
+    <Navbar/>
   <div>
       <main className="service container">
       <Title title='Services'/>
@@ -126,8 +130,9 @@ const Service = () => {
   </div>
 
 
+<Footer/>
 
-
+  </>
 
   )
 }

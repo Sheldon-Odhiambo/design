@@ -4,12 +4,18 @@ import ourwork from '../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg';
 import whoweare from '../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg'; 
 import mission from '../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg'; 
 import vision from '../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg'; 
-import Title from "./Title"                                                                                                                                                                                                        
+import Title from "./Title"
+import Navbar from './Navbar'
+import Footer from './Footer'
+
+
 
 
 const About = () => {
   return (
-    
+    <>
+
+<Navbar/>    
     <main className="about-main-container">  
        <Title title='About Us'/>
 
@@ -68,7 +74,12 @@ const About = () => {
             </section>
 
 
-        </main>
+        </main>  
+        <Footer/>
+</>
+
+
+
   )
 }
 

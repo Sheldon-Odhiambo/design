@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index: 2;
+}
+
+.header .container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container1 .logo{
+    padding: 15px 0;
+    height: 50px;
+}
+
+.header .container1 .logo img{
+    width: 50px;
+    height: 100%;
+    margin-left: 100px;
+}
+
+ 
+
+
+
+.header nav {
+    display: flex;
+    height: 60px;
+    line-height: 75px;
+    gap: 2rem;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.header nav .active,
+.header nav a:hover 
+    {
+    border-bottom: 4px solid   #f23a1d;
+    /* font-weight: 600; */
+
+    /* background-color: #e43a47; */
+}
