@@ -7,6 +7,7 @@ import empowering from '../assets/empowering.png';
 import Navbar from './Navbar'
 import Typed from 'typed.js'
 import Footer from './Footer'
+import Contact from './Contact'
 
 
 
@@ -82,6 +83,7 @@ const Home = () => {
     </div>
 
     </div>
+    
     <Footer/>
 </>
 

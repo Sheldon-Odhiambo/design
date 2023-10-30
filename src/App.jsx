@@ -6,6 +6,7 @@ import Service from "./componenets/Service"
 import Resource from "./componenets/Resource"
 import Contact from "./componenets/Contact"
 import Footer from "./componenets/Footer"
+import Shop  from "./componenets/Shop"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/resource" element={<Resource/>}/>
       <Route path="contact" element={<Contact/>}/>
       <Route path="footer" element={<Footer/>}/>
+      <Route path="shop" element={<Shop/>}/>
 
 
       

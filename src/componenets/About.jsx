@@ -17,7 +17,7 @@ const About = () => {
 
 <Navbar/>    
     <main className="about-main-container">  
-       <Title title='About Us'/>
+    <Title title='About Us'/>
 
           
             <section className="about-how-we-work-container">
