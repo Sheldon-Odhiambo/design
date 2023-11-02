@@ -30,6 +30,11 @@ import insp7 from '../assets/insp7.jpeg'
 
 const Resource = () => {
   return (
+
+    <>
+    
+    <Navbar/>
+
     
         <div class="Resource-container">
             
@@ -199,6 +204,8 @@ const Resource = () => {
      </div>
 
 
+ <Footer/>
+</>
 
   )
 }
