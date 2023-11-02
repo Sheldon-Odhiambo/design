@@ -3,24 +3,8 @@ import '../styles/Navbar.css';
 import logo from '../assets/Starburst Theme-2.png';
 import { NavLink } from 'react-router-dom';
 
-<<<<<<< HEAD
-    
-                <img src={logo} alt=""/>
-            </div>
-
-            <nav>
-              
-                <NavLink to='/'>Home</NavLink>
-                <NavLink to='/about'>About Us</NavLink>
-                <NavLink to='/service'>Services</NavLink>
-                <NavLink to='/resource'>Resources</NavLink>
-                <NavLink to='/shop'>Shop</NavLink>
-                <NavLink to='/contact'>Contact</NavLink>
-            
-=======
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
->>>>>>> 1e4bb6573c788c1ec73909bd8c1ce8a61d9691f7
 
   return (
     <div className={`navbar-container ${showNav ? 'open' : ''}`}>
@@ -37,7 +21,7 @@ const Navbar = () => {
           <NavLink to='/'>Home</NavLink>
           <NavLink to='/about'>About Us</NavLink>
           <NavLink to='/service'>Services</NavLink>
-          <NavLink to='/resources'>Resources</NavLink>
+          <NavLink to='/resource'>Resource</NavLink>
           <NavLink to='/shop'>Shop</NavLink>
           <NavLink to='/contact'>Contact</NavLink>
         </nav>

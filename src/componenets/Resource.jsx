@@ -20,6 +20,9 @@ import insp4 from '../assets/insp4.jpg'
 import insp5 from '../assets/insp5.jpeg'
 import insp6 from '../assets/insp6.jpeg'
 import insp7 from '../assets/insp7.jpeg'
+import Navbar from "./Navbar"
+import Footer from './Footer'
+
 
 
 

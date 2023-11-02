@@ -1,10 +1,11 @@
 .navbar-container {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  position: fixed;
+  position: sticky;
   z-index: 2;
   height: 100px;
   display: flex;  
+  scroll-margin-top: 200px;
 }
 
 .navbar-container.open {
