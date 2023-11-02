@@ -1,48 +1,99 @@
-.header{
-    width: 100%;
-    background-color: rgba(0,0,0,0.6);
-    position: fixed;
-    z-index: 2;
+.navbar-container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 2;
+  height: 100px;
+  display: flex;  
 }
 
-.header .container1{
+.navbar-container.open {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.navbar-container .menubar-container {
+  width: 85%;
+  margin:  auto ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.navbar-container .menubar-container .logo-container img {
+  width: 50px;
+  height: 100%;
+}
+
+.navbar-container .burger {
+  display: block;
+  padding: 15px 0;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  margin-right: 20px;
+  display: none;
+}
+
+.navbar-container .burger i.fa-xmark {
+  display: block;
+  transform: rotate(90deg);
+}
+
+.navbar-container nav {
+  display: flex;
+  /* height: 60px; */
+  line-height: 50px;
+  /* padding: 0 15px; */
+  gap: 2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.navbar-container nav.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  height: 100vh;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 2;
+  padding: 2rem;
+}
+
+.navbar-container nav .active,
+.navbar-container nav a:hover {
+  border-bottom: 4px solid #f23a1d;
+}
+
+.navbar-container nav.open a:hover {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container nav {
+    display: none;
+  }
+
+  .navbar-container .burger {
+    display: block;
+  }
+
+  .navbar-container.open nav {
     display: flex;
-    justify-content: space-between;
-}
+  }
 
-.header .container1 .logo{
-    padding: 15px 0;
-    height: 50px;
-}
+  .navbar-container.open nav a {
+    color: white;
+  }
 
-.header .container1 .logo img{
-    width: 50px;
-    height: 100%;
-    margin-left: 100px;
-}
-
- 
-
-
-
-.header nav {
-    display: flex;
-    height: 60px;
-    line-height: 75px;
-    gap: 2rem;
-    padding: 0 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 16px;
-    color: #fff;
-    transition: 0.4s ease;
-}
-
-.header nav .active,
-.header nav a:hover 
-    {
-    border-bottom: 4px solid   #f23a1d;
-    /* font-weight: 600; */
-
-    /* background-color: #e43a47; */
+  .navbar-container.open nav a:hover {
+    color: var(--backgroundLightBlue);
+  }
 }
