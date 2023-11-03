@@ -1,10 +1,18 @@
 import React from 'react'
 import '../styles/Contact.css'
-import Title from "./Title"                                                                                                                                                                                                        
+import Title from "./Title"   
+import Navbar from "./Navbar"
+import Footer from './Footer'
+
 
 
 const Contact = () => {
   return (
+
+
+    <>
+
+ <Navbar/>
     <section className="contacts">
 
 <Title title='Contact Us'/>
@@ -69,7 +77,9 @@ const Contact = () => {
 </div>
 </section>
 
+<Footer/>
 
+</>
 
   )
 }
