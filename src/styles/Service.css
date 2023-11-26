@@ -169,3 +169,117 @@ span{
   color: #f23a1d;
   
 }
+
+/* Default styles */
+
+.service-Cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.serviceTeamCard > img {
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 6px 3px #ccc;
+  margin-bottom: 0.2rem;
+}
+
+.serviceTeamCard {
+  margin-bottom: 2.5rem;
+}
+
+.serviceTeamCard h4 {
+  color: #f23a1d;
+}
+
+.serve {
+  padding: 100px;
+}
+
+.service-innovation-container,
+.service-value-container,
+.service-starter-container,
+.service-community-container,
+.service-design-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 20px 7.5%;
+  margin-top: 80px;
+}
+
+.service-innovation-container > img,
+.service-value-container > img,
+.service-starter-container > img,
+.service-community-container > img,
+.service-design-container > img {
+  width: 48%;
+  border-radius: 0.5rem;
+}
+
+.innovation-text,
+.value-text,
+.starter-text,
+.community-text,
+.design-text {
+  color: #3d3d3d;
+  font-size: 0.95rem;
+  line-height: 1.4rem;
+}
+
+.service h2 i {
+  color: red;
+}
+
+.serviceMainContainer {
+  width: 85%;
+  margin: 2rem auto;
+  background-image: url(../assets/blob2.svg);
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+.servieBodyContainer > h1 {
+  color: darkblue;
+  font-size: 1.6rem;
+}
+
+span {
+  color: #f23a1d;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+  .service-innovation-container,
+  .service-value-container,
+  .service-starter-container,
+  .service-community-container,
+  .service-design-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-innovation-container > img,
+  .service-value-container > img,
+  .service-starter-container > img,
+  .service-community-container > img,
+  .service-design-container > img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .service-Cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serviceTeamCard > img {
+    height: auto;
+  }
+}

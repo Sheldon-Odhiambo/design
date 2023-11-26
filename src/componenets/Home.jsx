@@ -8,6 +8,7 @@ import Navbar from './Navbar'
 import Typed from 'typed.js'
 import Footer from './Footer'
 import Contact from './Contact'
+import ContactForm from './ContactForm'
 
 
 
@@ -83,6 +84,8 @@ const Home = () => {
     </div>
 
     </div>
+    
+    <ContactForm/>
     
     <Footer/>
 </>

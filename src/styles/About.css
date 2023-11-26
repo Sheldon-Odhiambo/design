@@ -115,3 +115,70 @@ span{
 }
 
 
+.about-how-we-work-container,
+.about-who-we-are-container,
+.about-mission-container,
+.about-vision-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px 5%;
+    margin-top: 80px;
+    background-image: url(../assets/blob.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.about-how-we-work-container > img,
+.about-who-we-are-container > img,
+.about-mission-container > img,
+.about-vision-container > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.about-how-we-work-container h3 {
+    color: #f23a1d;
+    font-size: 1rem;
+}
+
+.aboutTeamMainContainer {
+    width: 100%;
+    margin: 5rem auto;
+    background-image: url(./images/blob2.svg);
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+.about-TeamBodyContainer > h1 {
+    color: darkblue;
+    font-size: 1.6rem;
+}
+
+span {
+    color: #f23a1d;
+}
+
+/* Media query for larger screens (e.g., tablets and desktops) */
+@media only screen and (min-width: 601px) {
+    .about-how-we-work-container,
+    .about-who-we-are-container,
+    .about-mission-container,
+    .about-vision-container {
+        flex-direction: row;
+        padding: 20px 7.5%;
+    }
+}
+
+/* Media query for smaller screens (e.g., phones) */
+@media only screen and (max-width: 600px) {
+    .about-how-we-work-container,
+    .about-who-we-are-container,
+    .about-mission-container,
+    .about-vision-container {
+        padding: 20px 5%;
+    }
+}
+
+
