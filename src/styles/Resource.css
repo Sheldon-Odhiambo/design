@@ -59,4 +59,32 @@
 
  }
 
+/* Media query for screens smaller than 768px (typical phone size) */
+
+@media only screen and (max-width: 767px) {
+    .container-b h2 {
+        margin: 2rem;
+    }
+
+    .resource-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 2rem;
+    }
+
+    .resource-list > li > img {
+        height: 100px;
+    }
+
+    .container-c h1,
+    .container-d h1 {
+        margin: 2rem;
+    }
+
+    .container-d > ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 2rem;
+    }
+}
 
