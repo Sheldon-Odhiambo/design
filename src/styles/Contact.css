@@ -90,3 +90,28 @@
     cursor: pointer;
 }
 
+
+/* Media query for screens smaller than 768px (typical phone size) */
+
+@media only screen and (max-width: 767px) {
+    .contact-main-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .contact-info-container,
+    .contact-form {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .contact-form button {
+        left: 0; /* Reset the position */
+        margin-top: 1rem;
+    }
+
+    /* Additional rule to ensure icons are not affected */
+    .contact-social-links .contact-icon-background {
+        margin-top: 0; /* Reset margin for icons */
+    }
+}

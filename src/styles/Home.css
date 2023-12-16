@@ -71,3 +71,37 @@
 }
 
 
+/* Media query for screens smaller than 768px (typical phone size) */
+
+@media only screen and (max-width: 767px) {
+    .container-home h1 {
+        width: 100%;
+        font-size: 3rem;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .process h1,
+    .process p {
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    .benefits {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits li {
+        width: 80%;
+        max-width: 250px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .benefits li img {
+        width: 100%;
+        max-width: 150px;
+        height: 150px;
+    }
+}
