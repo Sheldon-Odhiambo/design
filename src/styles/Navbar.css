@@ -6,7 +6,7 @@
   height: 100px;
   display: flex;  
   scroll-margin-top: 200px;
-}
+  }
 
 .navbar-container.open {
   background-color: rgba(0, 0, 0, 0.95);

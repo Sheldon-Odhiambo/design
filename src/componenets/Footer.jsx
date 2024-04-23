@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Footer.css'
-import logo from '../assets/Starburst Theme-2.png'
+import contactl from '../assets/contact.png'
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
           <hr className='underline-orange' />
           <hr className='underline-grey' />
         </section>
-        <img src= {logo} className='footer-logo'alt='design thinking logo'/>
+        <img src= {contactl} className='footer-logo'alt='design thinking logo'/>
         <p>
           At design thinking association, we help you understand your customers and build products around their needs.
         </p>
@@ -84,7 +84,7 @@ const Footer = () => {
         </section>
         <section className='footer-links'>
           <a href='/privacy-policy'>Privacy Policy</a>
-          <a href='/te'>Terms of Use</a>
+          <a href='/terms of use'>Terms of Use</a>
           <a href='/covid-19-pandemic'>Covid-19 Response</a>
           <a href='/auth/login'>Staff Login</a>
         </section>

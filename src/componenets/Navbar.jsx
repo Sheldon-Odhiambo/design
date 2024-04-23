@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Navbar.css';
-import logo from '../assets/Starburst Theme-2.png';
+import logo from '../assets/Logo.png';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {

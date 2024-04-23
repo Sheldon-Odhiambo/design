@@ -7,6 +7,8 @@ import Resource from "./componenets/Resource"
 import Contact from "./componenets/Contact"
 import Footer from "./componenets/Footer"
 import Shop  from "./componenets/Shop"
+import Header  from "./componenets/Header"
+
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
       <Route path="contact" element={<Contact/>}/>
       <Route path="footer" element={<Footer/>}/>
       <Route path="shop" element={<Shop/>}/>
+      <Route path="header" element={<Header/>}/>
+
 
 
       
