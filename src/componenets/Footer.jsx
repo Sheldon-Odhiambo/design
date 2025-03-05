@@ -58,7 +58,7 @@ const Footer = () => {
         </section>
         <section className='footer-links'>
           <a href='./index.html'>Home</a>
-          <a href='./about.html'>About Us</a>
+          <a href='./About.jsx'>About Us</a>
           <a href='./services.html'>Services</a>
           <a href='./resource.html'>Resources</a>
           <a href='./contact.html'>Contact</a>

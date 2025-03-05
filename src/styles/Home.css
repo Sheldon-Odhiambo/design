@@ -3,9 +3,12 @@
 }
 .container-home{
     margin: auto;
-    background-image: url('../assets/diego-ph-fIq0tET6llw-unsplash.jpg');
+    background-image: url('../assets/back 1.jpg');
     background-size: cover;
-}
+    background-attachment: fixed;
+} 
+
+
 
 .container-home h1{
     margin-top: 180px;

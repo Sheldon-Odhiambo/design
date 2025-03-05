@@ -1,6 +1,6 @@
 .sectionTitle {
     width: 200px;
-    border-bottom: 3px solid  #f23a1d;
+    border-bottom: 3px solid   #0c1330;
     text-align: center;
     font-size: 2rem;
     font-weight: 200;
@@ -15,7 +15,7 @@
     content: '';
     height: 15px;
     width: 15px;
-    background-color:  #f23a1d;
+    background-color:   #0c1330;
     position: absolute;
     left: calc(50% - 10px);
     top: calc(75% - 7px);

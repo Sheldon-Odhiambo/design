@@ -4,7 +4,7 @@
 }
 .container-b h2 {
     /* text-align: center; */
-    color:  #f23a1d;
+    color:   #0c1330;
     padding: 1rem;
     margin: 4rem;
     
@@ -30,7 +30,7 @@
 }
 
 .resource-list a{
-    color:  #f23a1d;
+    color:  #f23a;
     font-size: small;
 }
 
@@ -38,7 +38,7 @@
     margin-top: 5rem;
 }
 .container-c h1{
-    color:  #f23a1d;
+    color:   #0c1330;
     margin: 4rem;
 }
 

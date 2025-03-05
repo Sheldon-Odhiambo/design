@@ -52,7 +52,7 @@ const Service = () => {
                 </div>
                 <div className="serviceTeamCard">
                     <img src={innovation}  alt=""/>
-                    <h4>Design Thinking Community</h4>
+                    <h4>Designf Thinking Community</h4>
                 </div>
                 <div className="serviceTeamCard">
                   <img src={experience}  alt=""/>

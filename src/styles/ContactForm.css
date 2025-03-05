@@ -14,7 +14,7 @@
 }
 
 .contact-info-container{
-    background-color: #f23a1d;
+    background-color:  #0c1330;
     border-radius: 0.8rem;
     color: #fff;
     width: 48%;
@@ -41,7 +41,7 @@
 }
 
 .contact-icon-background i {
-    color: #f23a1d;
+    color:  #0c1330;
 }
 
 .contact-form{
@@ -77,7 +77,7 @@
 }
 
 .contact-form button{
-    background-color: #f23a1d;
+    background-color:  #0c1330;
     border: 1px solid #f23a1d;
     font-size: 1rem;
     padding: 8px 14px;
