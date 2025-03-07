@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/About.css'
-import ourwork from '../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg'; 
-import whoweare from '../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg'; 
-import mission from '../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg'; 
-import vision from '../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg'; 
+import ourwork from '../assets/ourwork.jpg'; 
+import whoweare from '../assets/whoweare.jpg'; 
+import mission from '../assets/mmission.jpg'; 
+import vision from '../assets/Visionm.jpg'; 
 import Title from "./Title"
 import Navbar from './Navbar'
 import Footer from './Footer'

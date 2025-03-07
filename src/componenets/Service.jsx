@@ -6,7 +6,7 @@ import service from '../assets/service3.jpg';
 import innovation from '../assets/service4.jpg'; 
 import experience from '../assets/service5.jpg'; 
 import build from '../assets/inno23.jpg';
-import value from '../assets/value preposition design.jpg';
+import value from '../assets/vpdesign.jpg';
 import starter from '../assets/starter.jpg'; 
 import community from '../assets/dylan-gillis-KdeqA3aTnBY-unsplash.jpg'; 
 import userEx from '../assets/ux-indonesia-WCID2JWoxwE-unsplash.jpg';
