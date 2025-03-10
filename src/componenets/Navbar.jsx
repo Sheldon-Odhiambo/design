@@ -1,16 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Navbar.css';
 import logo from '../assets/Logo.png';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    const currentScrollY = window.scrollY;
+    const footer = document.getElementById('footer');
+    const footerTop = footer?.getBoundingClientRect().top + window.scrollY;
+    const windowHeight = window.innerHeight;
+
+    if (currentScrollY > lastScrollY && currentScrollY + windowHeight < footerTop) {
+      // Scrolling down and not at footer
+      setIsVisible(false);
+    } else {
+      // Scrolling up or at footer
+      setIsVisible(true);
+    }
+    setLastScrollY(currentScrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', controlNavbar);
+    return () => {
+      window.removeEventListener('scroll', controlNavbar);
+    };
+  }, [lastScrollY]);
 
   return (
-    <div className={`navbar-container ${showNav ? 'open' : ''}`}>
+    <div className={`navbar-container ${showNav ? 'open' : ''} ${isVisible ? 'visible' : 'hidden'}`}>
       <div className='menubar-container'>
         <div className='logo-container'>
-          <img src={logo} alt='' />
+          <img src={logo} alt='Logo' />
         </div>
 
         <div className='burger' onClick={() => setShowNav(!showNav)}>
