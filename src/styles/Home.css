@@ -1,12 +1,20 @@
 .background-img{
     background-size: cover;
 }
-.container-home{
+/* .container-home{
     margin: auto;
     background-image: url('../assets/back 1.jpg');
     background-size: cover;
     background-attachment: fixed;
-} 
+}  */
+
+.container-home {
+    margin: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: background-image 3s ease-in-out; /* Smooth transition */
+}
 
 
 
