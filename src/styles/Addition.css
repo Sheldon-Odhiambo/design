@@ -1,0 +1,153 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #0f2849;
+    color: white;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Left Section */
+.contact-left {
+    width: 50%;
+    text-align: left;
+}
+
+.contact-left h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Image Card */
+.image-card {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Floating Info Boxes */
+.info-box, .progress-box {
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+.info-box {
+    bottom: 20px;
+    left: 15px;
+}
+
+.progress-box {
+    top: 20px;
+    right: 15px;
+}
+
+/* Circular Progress */
+.progress-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #27ae60;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Right Section (Form) */
+.contact-right {
+    width: 45%;
+    background: #1b3d66;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Form Fields */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-group input, .input-group select, 
+.contact-form input, .contact-form select {
+    width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact-form input:focus, .contact-form select:focus {
+    border-color: #ff6700;
+}
+
+/* Full Width Fields */
+.contact-form input, .contact-form select {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Terms and Conditions */
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Submit Button */
+.submit-btn {
+    background: #ff6700;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #e55a00;
+}
+
+/* ✅ Responsive Fixes */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-left, .contact-right {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    .input-group input, .input-group select {
+        width: 100%;
+    }
+}

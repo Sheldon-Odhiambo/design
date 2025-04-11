@@ -1,13 +1,4 @@
-.background-img{
-    background-size: cover;
-}
-/* .container-home{
-    margin: auto;
-    background-image: url('../assets/back 1.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-}  */
-
+/* General Styles */
 .container-home {
     margin: auto;
     background-size: cover;
@@ -16,9 +7,7 @@
     transition: background-image 3s ease-in-out; /* Smooth transition */
 }
 
-
-
-.container-home h1{
+.container-home h1 {
     margin-top: 180px;
     display: inline-block;
     font-size: 4.5rem;
@@ -29,30 +18,30 @@
     font-weight: 500;
 }
 
-.process, .container-hero{
-        max-width: 1140px;
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-
+.process, .container-hero {
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
-.process h1{
+
+.process h1 {
     font-size: 30px;
     font-weight: bold;
     padding: 40px;
     text-align: center;
-
 }
 
-.process p{
+.process p {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
-.benefits{
+
+.benefits {
     list-style: none;
     display: flex;
-    justify-content: centre;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
     overflow: hidden;
@@ -68,12 +57,11 @@
     animation: movePictures 20s linear infinite;
 }
 
-.benefits li img{
+.benefits li img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
-
 }
 
 .benefits li span {
@@ -81,9 +69,9 @@
     display: block;
 }
 
+/* Media Queries */
 
-/* Media query for screens smaller than 768px (typical phone size) */
-
+/* For phones and small tablets */
 @media only screen and (max-width: 767px) {
     .container-home h1 {
         width: 100%;
@@ -114,5 +102,71 @@
         width: 100%;
         max-width: 150px;
         height: 150px;
+    }
+}
+
+/* For medium-sized tablets (768px - 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container-home h1 {
+        font-size: 3.5rem;
+        margin-top: 120px;
+    }
+
+    .process h1,
+    .process p {
+        padding: 30px;
+        font-size: 28px;
+    }
+
+    .benefits li {
+        width: 40%;
+        max-width: 300px;
+        margin: 25px;
+    }
+
+    .benefits li img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+/* For larger tablets and desktops (1025px and up) */
+@media only screen and (min-width: 1025px) {
+    .container-home h1 {
+        font-size: 4.5rem;
+        margin-top: 180px;
+        text-align: left;
+    }
+
+    .process h1,
+    .process p {
+        padding: 40px;
+        font-size: 30px;
+    }
+
+    .benefits li {
+        width: 250px;
+        max-width: 250px;
+        margin: 30px;
+    }
+
+    .benefits li img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* For very large screens */
+@media only screen and (min-width: 1200px) {
+    .container-home h1 {
+        font-size: 5rem;
+    }
+
+    .process h1 {
+        font-size: 35px;
+    }
+
+    .process p {
+        font-size: 20px;
     }
 }
