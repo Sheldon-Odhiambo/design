@@ -3,6 +3,7 @@ import '../styles/Home.css';
 import back1 from '../assets/back1.jpg';
 import back2 from '../assets/back2.jpg';
 import back3 from '../assets/back3.jpg';
+import back4 from '../assets/back4.jpg';
 
 import collaboration from '../assets/collaboration.png'; 
 import transformation from '../assets/digital-transformation.png'; 
@@ -14,7 +15,7 @@ import Footer from './Footer';
 import ContactForm from './ContactForm';
 
 // Array of background images
-const backgroundImages = [back1, back2, back3];
+const backgroundImages = [back1, back2, back3, back4];
 
 const Home = () => {
   const el = useRef(null);
