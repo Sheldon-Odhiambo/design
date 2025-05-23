@@ -8,8 +8,8 @@ import Contact from "./componenets/Contact";
 import Footer from "./componenets/Footer";
 import Shop from "./componenets/Shop";
 import Header from "./componenets/Header";
-import Addition from "./componenets/Addition";
 import ScrollButtons from "./componenets/ScrollButtons";
+import DeploymentDashboard from "./componenets/DeploymentDashboard";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route path="/footer" element={<Footer />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/header" element={<Header />} />
-        <Route path="/addition" element={<Addition />} />
+        <Route path="/DeplomentDashboard" element={<DeploymentDashboard/>} />
       </Routes>
 
       <ScrollButtons /> 

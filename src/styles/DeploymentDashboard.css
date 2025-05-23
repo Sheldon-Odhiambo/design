@@ -1,0 +1,45 @@
+.wrapper {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .section-header {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .status-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .status-box {
+    flex: 1;
+    min-width: 120px;
+    background-color: #e5e7eb;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .status-count {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+  }
+  
+  .status-label {
+    font-size: 14px;
+    color: #4b5563;
+  }
+  

@@ -92,7 +92,7 @@ const Footer = () => {
     </div>
     <hr id='footer-copyright-seperator' />
     <section className='footer-copyright'>
-      Copyright 2023 &copy; design thinking association
+      Copyright 2024 &copy; design thinking association
     </section>
   </footer>
 
